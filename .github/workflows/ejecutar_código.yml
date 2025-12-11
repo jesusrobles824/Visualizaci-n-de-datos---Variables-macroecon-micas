@@ -23,7 +23,7 @@ jobs:
           pip install yfinance pandas matplotlib numpy xlrd openpyxl pandas-datareader
 
       - name: Run script
-        run: python ejecutar_código.py
+        run: python ADRs.py
 
 
       - name: Configurar git
